@@ -12,7 +12,7 @@ def show_experience():
     st.header("**:blue[Experience]**")
     "---"
     st.subheader(":green[Data Science Intern:] *Innomatics Research Labs, Nov 2022 - Present*")
-    st.write("I am a motivated Data Science Intern with a strong proficiency in Python, data analysis, SQL, Tableau, Advanced Excel, machine learning, and deep learning. Through my studies and hands-on experience, I have gained a solid foundation in these areas and a passion for leveraging data-driven insights to solve complex problems. With a strong command of Python, I can efficiently manipulate and analyze large datasets to extract valuable information. My knowledge of SQL allows me to effectively retrieve, organize, and query data from relational databases. Additionally, my understanding of machine learning and deep learning algorithms equips me to build predictive models and extract meaningful patterns from data. As a Data Science Intern, I am eager to contribute my skills and learn from experienced professionals, driving data-driven decision-making and delivering impactful solutions.")
+    st.write("Learned to make data-driven-decisions by applying my learning of Python, SQL, Tableau, PowerBI, Streamlit, Advanced Excel, Web Scraping, Data Analysis, Flask, MLOPs, Machine Learning, Deep Learning.")
     "---"
     st.subheader(":green[Operations & Finance Head:] *Self-Employed, Dec 2011 - May 2020*")
     st.write("Gained Experience in following skills: Managerial skills, Negotiation Skills, Crowd Management, Presentation, Funding Management, Procurement, Logistics")
