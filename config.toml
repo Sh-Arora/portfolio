@@ -1,6 +1,0 @@
-[theme]
-primaryColor = "19E40C" # Primary interface colors slider check box ad radio buttons will use this
-backgroundColor = "rgba(28,27,25,1)" # main background colors
-secondaryBackgroundColor = "FFDB4B" # Text Input area and all such widgets
-textColor = "F9F4F4"
-font = "sans serif"
