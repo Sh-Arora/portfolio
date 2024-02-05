@@ -4,7 +4,7 @@ from PIL import Image
 
 def show_about_me():
     st.header(":blue[About Me]")
-    st.write("I am a passionate Data Scientist and experienced IT professional with a diverse background rooted in Hyderabad. My love for mathematics led me to pursue engineering, where I discovered a deep interest in Control Systems and Artificial Intelligence. With a rebellious spirit, I pursued my Masters in the USA. Analytical thinking and Data was at the core of all my professional pursuits. Worked extensively as an IT professional with Multi-Dimensional databases before returning to India. I founded an extracurricular activity service industry to restore balance and prioritize holistic development alongside academic pursuits. With a strong track record in organizing impactful events, I am now excited to apply my expertise in Data Science, leveraging my experiences and knowledge to drive innovation and solve complex problems.")
+    st.write("Hyderabad-native engineer with a passion for mathematics and a specialization in control systems. Pursued Masters in the USA, specializing in control systems. Established a successful career in the analytics field and delivered several projects. Entrepreneurial spirit led to founding extracurricular service company and organizing diversified events. Adaptable leader skilled in crisis management, communication, and analytical thinking. Eager to leverage expertise in artificial intelligence and passion for innovation in next professional endeavor.")
     st.subheader(":blue[What Drives me:]")
     st.write("My journey through education has ignited a deep fascination for artificial intelligence and robotics. Exploring the realms of these cutting-edge technologies during my academic years has sparked a curiosity that continues to drive me forward. In my subsequent work experiences with multi-dimensional databases, I have witnessed firsthand the immense value of harnessing data in multiple ways for making informed and strategic business decisions. Then my entrepreneurial ventures experiences have provided me with valuable insights into the managerial and people skills required to lead and inspire teams. However, the COVID-19 pandemic brought unexpected challenges and a temporary break in my professional pursuits. Yet, amidst the chaos, it reignited the passion for AI that I had nurtured in my younger days, particularly with the current boom in the market. Driven by this renewed enthusiasm, I have worked passionately to relearn and update my knowledge in the field, determined to make a meaningful impact in the world of Artificial Intelligence and DataScience. ")
 
@@ -12,19 +12,28 @@ def show_experience():
     st.header("**:blue[Experience]**")
     "---"
     st.subheader(":green[Jr Data Scientist:] *Innomatics Research Labs, Nov 2022 - Present*")
-    st.write("Learned to make data-driven-decisions by applying my learning of Python, SQL, Tableau, PowerBI, Streamlit, Advanced Excel, Web Scraping, Data Analysis, Flask, MLOPs, Machine Learning, Deep Learning.")
+    st.write("Worked on near real time projects from end to end that include Data collection, Data Cleaning, Data Analysis, Statistical Analysis, SQL querying, Machine Learning model or Deep Learning model building and deployment.")
     "---"
-    st.subheader(":green[Operations & Finance Head:] *Self-Employed, Dec 2011 - May 2020*")
-    st.write("Gained Experience in following skills: Managerial skills, Negotiation Skills, Crowd Management, Presentation, Funding Management, Procurement, Logistics")
+    st.subheader(":green[Director of Operations:] *Spartans Media, Apr 2019 - May 2022*")
+    st.write("Handled Operations in organizing several large events like Marathons, Food Festivals, Musical concerts and exhibitions. Involved in presenting sales pitch for securing funds for the events. Created marketing materials and organized marketing campaigns. Worked closely with people in different levels to get the event up and running.")
+    "---"
+    st.subheader(":green[Director:] *Kidsdale International Pre-school, Feb 2014 - May 2021*")
+    st.write("Worked with partners to create a business strategy to setup and run an educational institution. Handled budgeting and finance. Helped in creating marketing materials and campaigns. Involved in design and execution of school curriculum.")
+    "---"
+    st.subheader(":green[Director Of Operations:] *Arena Events, Oct 2015 - Apr 2019*")
+    st.write("Handled Operations in organizing several large events like Marathons, health awareness events. Created marketing materials and organized health awareness campaigns. Worked with people and communities to spread health awareness.")
+    "---"
+    st.subheader(":green[Director - Operation Head:] *Kids Arena Sports and Activities India Pvt.Ltd, Jan 2013 - Apr 2019*")
+    st.write("Created a curriculum from scratch for sports, arts, dance and music. Provided the same as a service to schools that lack infrastructure. Developed a training program for coaches and cross skilled them to train the students. Devised a custom budget for each school based on the requirements.")
     "---"
     st.subheader(":green[Sr Analyst:] *Oracle India, Apr 2010 - Dec 2010*")
-    st.write("Supported and Enhanced American Express systems. With Essbase, Hyperion Planning, OBIEE, Informatica and excellent Communication Skills & Analytical Skills,")
+    st.write("Involved in support and performance enhancements of Essbase cubes. Learned OBIEE and Informatica as part of cross skilling for supporting the American Express systems. Helped various cross platform resources in understanding Hyperion and its tools and supporting them by conducting training sessions. Worked on team’s communication and reporting skills through training based learning.")
     "---"
     st.subheader(":green[Sr Programming Analyst:] *Limited Brands USA, Feb 2006 - Dec 2009*")
-    st.write("Developed, Supported and Enhanced Multi-Dimensional databases. With Essbase, Hyperion Analyzer, Hyperion Interactive Reporting, Microsoft PowerPoint, Teradata, Clarity and excellent Oral & Written Communication Skills")
+    st.write("Started with an end-to-end support role at Victoria Secret Direct which uses Essbase to analyze the Merchandize planning data. Created a Production schedule to perform builds, loads and calculation of the databases. Also supported UDB (source data), SQL queries and shell scripts pertaining to these processes. Supported a third-party tool called “Clarity”, which was used by a small group of financial people for operational planning. Involved in performance tuning and optimization of Essbase cubes for better performance.")
     "---"
     st.subheader(":green[Sr Hyperion Essbase Consultant:] *RJ Reynolds Tobacco Company, Jan 2005 - Feb 2006*")
-    st.write("Mainly dealt in improving performance of multi dimensional databases by Enhancements and Upgrades. With Essbase, Hyperion Analyzer, Hyperion Reports, Hyperion Interactive Reporting, Hyperion Performance Suite, Smartview, Microsoft PowerPoint and excellent Communication Skills")
+    st.write("RJR Hyperion Group uses Essbase to analyze the Sales data. Involved in running the production and resolving issues encountered during the process. Involved in the process of converting applications from BSO to ASO. Converted outline formulae from classic to MDX. Developed new rule files to load data into the cubes. Organized discussions with Business users and analysts to gather requirements and incorporate changes into production. Used Hyperion Analyzer and Excel to check the data availability and accuracy. Created and maintained Users and Groups for Hyperion Essbase and Hyperion Analyzer.")
     "---"
     st.header(":blue[Language Proficiency]")
     st.write("English, Hindi, Telugu")
@@ -32,6 +41,10 @@ def show_experience():
 
 def show_education():
     st.header(":blue[Education]")
+    "---"
+    st.subheader(":green[Certified in Data Science:]")
+    st.write("*Innomatics Research Labs, Nov 2022 - Aug 2023:* (Grade A)")
+    st.write("Python, SQL, Statistics, Tableau, Machine Learning, Aritificial Intelligence, Deep Learning, Flask, MLops")
     "---"
     st.subheader(":green[Masters in Electrical Engineering:]")
     st.write("*University of Texas at San Antonio, Jan 2002 - Dec 2003:* (Grade A)")
@@ -45,6 +58,9 @@ def show_education():
 def show_blogs():
     st.header(":blue[Blogs]")
     st.write("*Few Recent Blogs listed below:*")
+    "---"
+    st.write("*Unlocking Insights: Exploring Client-Server Architecture for Business and Data Science*")
+    st.write("https://medium.com/@shubavarma/unlocking-insights-exploring-client-server-architecture-for-business-and-data-science-78d4344b877d")
     "---"
     st.write("*Exploring Decision Trees for Classification and Splitting Strategies: Unraveling the Tom and Jerry Chase*")
     st.write("https://medium.com/@shubavarma/exploring-decision-trees-for-classification-and-splitting-strategies-unraveling-the-tom-and-jerry-604e81080f80")
@@ -120,6 +136,9 @@ def show_certificates():
     st.header(":blue[Certificates]")
     st.write("Only mentioning relevant Certificates")
     "---"
+    st.subheader(":green[DataScience Completion Certificate:]")
+    st.write("Innomatics Research Labs")
+    "---"
     st.subheader(":green[SQL (Intermediate) Certificate:]")
     st.write("https://www.hackerrank.com/certificates/9c68030c3f05")
     "---"
@@ -165,7 +184,7 @@ with col2:
     link_column = st.columns(3)
 
     with link_column[0]:
-        st.write("[LinkedIn](https://www.linkedin.com/in/shuba-bhupathiraju-25646489/)")
+        st.write("[LinkedIn](https://www.linkedin.com/in/subhadrabhupathiraju/)")
 
     with link_column[1]:
         st.write("[Medium](https://medium.com/@shubavarma)")
